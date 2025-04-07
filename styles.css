@@ -3,6 +3,11 @@ body {
     margin: 0;
     padding: 20px;
     line-height: 1.6;
+
+    background-image: url("resources/jogging.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -27,6 +32,11 @@ section {
     padding-bottom: 50px;
     text-align: center;
     margin: 20px auto;
+
+    background-image: url("resources/jogging.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer {
