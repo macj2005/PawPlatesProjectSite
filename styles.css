@@ -23,14 +23,14 @@ header {
 }
 
 header img {
-    height: 250px;
+    height: 350px;
     margin: 0 auto;
 }
 
 nav {
     margin: 20px 0;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 nav a {
@@ -39,7 +39,7 @@ nav a {
     color: black;
     background-color: #f4f4f4;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
 }
 
 section {
@@ -50,10 +50,35 @@ section {
     border-radius: 15px;
     text-align: center;
     margin: 20px auto;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 footer {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: darkslateblue;
+    transform: scale(0.95);
+}
+
+.download-button:active {
+    transform: scale(0.95);
 }
