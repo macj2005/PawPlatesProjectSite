@@ -77,6 +77,10 @@ section {
     text-align: right;
 }
 
+.team-member p {
+    text-align: left;
+}
+
 .use-cases {
     text-align: left;
     padding-left: 60px;
